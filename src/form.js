@@ -4,6 +4,7 @@ import classNames from 'classnames/dedupe';
 import Formsy from 'formsy-react';
 import OptionsProvider from './hoc/options-provider';
 
+
 class Form extends Component {
   render() {
     const formsyProps = Object.assign({}, this.props);
